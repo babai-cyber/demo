@@ -12,7 +12,7 @@ jobs:
     env:
       Greeting: am vey
     steps:
-      - name: "Say Hello to Vishal"
+      - name: "Say Hello to ganga"
         run: echo "$Greeting $First_Name is using $cloud with project ${{ vars.task_id }}!"
         env:
           First_Name: ganga
